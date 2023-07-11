@@ -20,6 +20,8 @@ class Checker {
 }
 
 $number = 211;
+
+
 $checker = new Checker($number);
 if ($checker->isArmstrongNumber()) {
 	echo "$number is an Armstrong Number.";
